@@ -1,12 +1,12 @@
 # InternHub
 
-InternHub is a comprehensive job hunting platform designed to connect job seekers with potential employers. The platform leverages modern web technologies and AI to provide personalized job recommendations and streamline the job application process.
+InternHub is a dynamic job hunting platform that connects job seekers with employers. It features personalized job recommendations powered by a system built with Python and Flask, analyzing user skills to suggest relevant opportunities. The backend is developed with Node.js, Express, and MongoDB, simplifying the job search and application process.
 
 ## Features
 
 - User Authentication: Secure login and registration using JWT.
 - Job Listings: Browse and search for job openings.
-- Job Recommendations: AI-driven job recommendations tailored to user profiles.
+- Job Recommendations: AI-driven job recommendations based on user skills.
 - Application Tracking: Track the status of job applications.
 - User Profiles: Create and update user profiles with resumes and cover letters.
 
@@ -74,7 +74,7 @@ InternHub is a comprehensive job hunting platform designed to connect job seeker
    - Navigate to the AI directory
 
      ```bash
-     cd ../ai
+     cd ../recommendation_system
      ```
 
    - Install virtualenv
