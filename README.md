@@ -45,74 +45,74 @@ InternHub is a dynamic job hunting platform that connects job seekers with emplo
 
    - Navigate to the backend directory
 
-     ```bash
+   ```bash
      cd backend
-     ```
+   ```
 
    - Install Node.js dependencies
 
-     ```bash
+   ```bash
      npm install
-     ```
+   ```
 
    - Set up environment variables in a `.env` file
 
-     ```
+   ```
      PORT=5000
      MONGODB_URI=your_mongodb_connection_string
      JWT_SECRET=your_jwt_secret
-     ```
+   ```
 
    - Start the backend server
 
-     ```bash
+   ```bash
      npm start
-     ```
+   ```
 
 3. **AI and Recommendations Setup**
 
    - Navigate to the AI directory
 
-     ```bash
+   ```bash
      cd ../recommendation_system
-     ```
+   ```
 
    - Install virtualenv
 
-     ```bash
+   ```bash
      pip install virtualenv --user
-     ```
+   ```
 
    - Set up a virtual environment
 
-     ```bash
+   ```bash
      python -m virtualenv venv
-     ```
+   ```
 
    - Activate the virtual environment
 
-     ```bash
+   ```bash
      venv/Scripts/activate  # On Unix-based systems use `source venv/bin/activate`
-     ```
+   ```
 
    - Install Python dependencies
 
-     ```bash
+   ```bash
      pip install -r requirements.txt --user
-     ```
+   ```
 
    - Set up environment variables in a `.env` file
 
-     ```
+   ```
      FLASK_APP=main.py
      FLASK_ENV=development
-     ```
+   ```
 
    - Start the Flask server
 
-     ```bash
+   ```bash
      python main.py
-     ```
+   ```
 
 ## Usage
 
